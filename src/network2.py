@@ -2,7 +2,7 @@
 ~~~~~~~~~~~~~~
 
 An improved version of network.py, implementing the stochastic
-gradient descent learning algorithm for a feedforward neural network.
+gradient descent learning algorithm for a feedforward neuhhral network.
 Improvements include the addition of the cross-entropy cost function,
 regularization, and better initialization of network weights.  Note
 that I have focused on making the code simple, easily readable, and
@@ -330,3 +330,5 @@ def sigmoid(z):
 def sigmoid_prime(z):
     """Derivative of the sigmoid function."""
     return sigmoid(z)*(1-sigmoid(z))
+
+TestNetwork = Network
